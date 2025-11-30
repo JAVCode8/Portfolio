@@ -1,0 +1,60 @@
+.left-section h1 {
+  font-size: 55px;
+  padding: 0;
+  margin: 0;
+}
+
+.left-section a {
+  text-decoration: none;
+  color: black;
+}
+
+.middle-section ul, .right-section ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.middle-section ul li a:hover{
+  color: black;
+}
+
+.middle-section ul {
+  display: flex;
+  gap: 30px;
+}
+
+.right-section ul {
+  display: flex;
+  gap: 15px;
+  padding: 17px;
+}
+
+.middle-section ul li {
+  padding: 15px;
+}
+
+.middle-section ul li a, .right-section ul li a {
+  text-decoration: none;
+  color: rgb(120, 120, 120)
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 15px 45px 15px 45px;
+}
+
+.left-section {
+  flex: 1;
+}
+
+.middle-section {
+  margin: 0px 20px 0px 20px;
+}
+
